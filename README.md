@@ -1,4 +1,4 @@
-![Minecraft Challenge](https://github.com/tashigg/minecraft-challenge/assets/183395/9817868a-4ae3-4904-81b2-d5fb169fbad9)
+![Minecraft Challenge](images/minecraftchallenge.png)
 
 <div align="center">
   <img src="https://img.shields.io/discord/1011889557526032464"/>
@@ -34,7 +34,7 @@ The hypothesis is that:
 6. The Valence server updates the state according to the stream of ordered game events
 7. The Valence servers all stay in sync, which means that the Minecraft clients stay in sync
 
-![TCE](https://github.com/tashigg/minecraft-challenge/assets/183395/14a6e4d1-4861-4ce1-b225-cd4c523ecabf)
+![TCE](images/tce.jpg)
 
 In this model, the players should theoretically be able to play a "local" Minecraft game with multiple players, where TCE keeps all local servers in sync with each other.
 
