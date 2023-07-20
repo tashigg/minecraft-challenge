@@ -8,11 +8,11 @@
   <small>Built with ❤️ by you</small>
 </div>
 
-## The Challenge
+## 🏆 The Challenge
 
 We are planning to demonstrate our multiplayer engine in person at devcom on August 20th in Germany.
 
-**Objectives**:
+🕹️ **Objectives**:
 
 * an 8-player Minecraft (Java Edition) game running
 * on 8 computers
@@ -20,7 +20,7 @@ We are planning to demonstrate our multiplayer engine in person at devcom on Aug
 * on a LAN at the event
 * with no manipulation of the game client code
 
-**The Current Plan**:
+🧭 **The Current Plan**:
 
 Tashi[^1] works by having all players broadcast their inputs to each other. Then each player's Tashi instance calculates the order of all inputs. Finally, the player's game applies that stream of inputs to the current local state. You can think of Tashi as a decentralized message queue; if all players receive the same sequence of player inputs and all players start with the same state, after applying the stream of inputs, all players should end with the same state.
 
@@ -42,15 +42,15 @@ In this model, the players should theoretically be able to play a "local" Minecr
 
 [^2]: [Valence](https://github.com/valence-rs/valence) is a Rust framework for building Minecraft: Java Edition servers.
 
-## The Terms
+## 📜 The Terms
 
-**Due Date**: August 15th, 2023
+🗓️ **Due Date**: August 15th, 2023
 
-**Budget**: $2,500
+💰 **Budget**: $2,500
 
-**Apply at**: https://discord.gg/fPNdgUCGnk
+🖋️ **Apply at**: https://discord.gg/fPNdgUCGnk
 
-## Discussion
+## 💬 Discussion
 
 We realize that we are not experts in the intricacies of Valence. Our expertise is in the Tashi Consensus Engine. We expect that you will have many questions about TCE and many suggestions about how to adjust the development plan. We trust your expertise and will take your lead if you are selected.
 
